@@ -18,6 +18,16 @@ $(document).ready(function(){
     el: document.querySelector("body"),
     smooth: true
   });
+
+  $('.sidenav a').click(function(el) {
+    if (el.currentTarget.id !== "a-resume") {
+      const targetId = "#" + el.currentTarget.id + "-div";
+      const target = document.querySelector(targetId);
+      scroll.scrollTo(target);
+      closeNav();
+      $('#nav-icon3').removeClass('open');
+    }
+  });
 });
 
 function parallax(e, target, layer) {

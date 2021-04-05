@@ -37,20 +37,20 @@
         <span></span>
       </div>
       <div id="mySidenav" class="sidenav">
-        <a href="#">Preserve The Preserve</a>
-        <a href="#">Gettin' Thrifti</a>
-        <a href="#">Atlas - Citi</a>
+        <a id="a-preserve">Preserve The Preserve</a>
+        <a id="a-thrifti">Gettin' Thrifti</a>
+        <a id="a-citi">Atlas - Citi</a>
         <br />
-        <a href="./aboutme.html">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a>
+        <a id="a-about">About</a>
+        <a id="a-skills">Skills</a>
+        <a id="a-resume">Resume</a>
+        <a id="a-contact">Contact</a>
       </div>
     </section>
 
     <section data-scroll-section>
       <div class="mid">
-        <h2 data-scroll data-scroll-position="top" data-scroll-speed="2">
+        <h2 data-scroll data-scroll-position="top" data-scroll-speed="2" id="hello">
           ENGINEER
         </h2>
         <h2 data-scroll data-scroll-position="top" data-scroll-speed="6">
@@ -138,14 +138,14 @@
           <img src="./images/Pink.svg" alt="pink" />
         </div>
       </div>
-      </section>
+    </section>
 
-    <section data-scroll-section style="padding-top: 200px;" id="aboutme">
-      <div>
+    <section data-scroll-section style="padding-top: 200px;">
+      <div id="a-about-div">
         <h3 data-scroll data-scroll-speed="1.5">
           ABOUT ME
         </h3>
-        <p data-scroll-speed="1.5" class="info">
+        <p class="info">
           Born and raised Texan with a BS in Mechanical Engineering from Texas
           A&M University, following passions in design and product
           development. Over 4 years of experience working amongst brilliant
@@ -164,7 +164,7 @@
     </div>
     </section>
     <section data-scroll-section style="padding-top: 200px;" id="skills">
-      <div>
+      <div id="a-skills-div">
         <h3 data-scroll data-scroll-speed="1.5">
           SKILLS
         </h3>
@@ -234,19 +234,19 @@
     </div>
     </section>
 
-    <section data-scroll-section class="sectionheightwork" id="work" style="padding-top: 200px; margin-bottom: 300px;">
-      <div style="display: flex; justify-content: space-between;">
-        <div style="padding-left: 250px;">
-          <h5 class="worktitleleft">
+    <section data-scroll-section class="sectionheightwork" style="padding-top: 200px; margin-bottom: 300px;">
+      <div style="display: flex; justify-content: space-between;" id="a-preserve-div">
+        <div style="padding-left: 150px; padding-top: 70px;">
+          <h5>
             PRESERVE <br />
             THE PRESERVE
           </h5>
         </div>
-        <div style="padding: 0 140px 120px 0;">
-          <div style="padding: 0 0 100px 0;">
+        <div>
+          <div style="padding-bottom: 50px;">
             <span>MY WORK</span>
           </div>
-          <div class="workimage">
+          <div style="padding-right: 50px;" data-scroll data-scroll-speed="1">
             <img
               src="./images/preserve.png"
               alt="Preserve The Preserve"
@@ -255,19 +255,19 @@
           </div>
         </div>
       </div>
-      <div style="display: flex; justify-content: space-between;">
-        <div class="workcolumn" style="padding: 0 0 120px 140px;">
+      <div style="display: flex; justify-content: space-between;" id="a-citi-div">
+        <div style="padding-left: 50px;" data-scroll data-scroll-speed="1">
           <img src="./images/citi.png" alt="Citi" width="615" height="385" />
         </div>
-        <div class="workcolumn" style="padding-left: 250px;">
+        <div style="padding-right: 150px;">
           <h5 class="worktitleright">CITI - ATLAS</h5>
         </div>
       </div>
-      <div style="display: flex; justify-content: space-between;">
-        <div class="workcolumn" style="padding-left: 250px;">
+      <div style="display: flex; justify-content: space-between;" id="a-thrifti-div">
+        <div style="padding-left: 150px;">
           <h5>THRIFTI</h5>
         </div>
-        <div class="workcolumn" style="padding-right: 100px;">
+        <div style="padding-right: 50px;" data-scroll data-scroll-speed="1">
           <img
             src="./images/thrifti.png"
             alt="Thrifti"
@@ -277,45 +277,46 @@
       </div>
     </section>
     <section data-scroll-section>
-      <div class="mid">
-        <p data-scroll data-scroll-speed="2" class="connect">
+      <div class="mid" id="a-contact-div">
+        <p data-scroll data-scroll-speed="4" class="connect">
           CONNECT
         </p>
-        <p data-scroll data-scroll-speed="6" class="connect">
+        <p data-scroll data-scroll-speed="3" class="connect">
           WITH
         </p>
-        <p data-scroll  data-scroll-speed="4" class="connect">
+        <p data-scroll  data-scroll-speed="2" class="connect">
           ME
         </p>
       </div>
     </section>
+    <section data-scroll-section>
+      <div class="footer">
+        <object
+          type="image/svg+xml"
+          data="./images/email.svg"
+          width="40"
+          height="40"
+          class="marginleft icon">
+        </object>
+        <object
+          type="image/svg+xml"
+          data="./images/linked-in.svg"
+          width="40"
+          height="40"
+          class="linkedin icon">
+        </object>
+        <object
+          type="image/svg+xml"
+          data="./images/download.svg"
+          width="40"
+          height="40"
+          class="linkedin icon">
+        </object>
+        <br />
+        <p class="marginleft copyright">Copyright 2021</p>
+        <p class="resume">Resume</p>
+      </div>
+    </section>
   </body>
-  <footer class="footer">
-    <object
-      type="image/svg+xml"
-      data="./images/email.svg"
-      width="40"
-      height="40"
-      class="marginleft icon">
-    </object>
-    <object
-      type="image/svg+xml"
-      data="./images/linked-in.svg"
-      width="40"
-      height="40"
-      class="linkedin icon">
-    </object>
-    <object
-      type="image/svg+xml"
-      data="./images/download.svg"
-      width="40"
-      height="40"
-      class="linkedin icon">
-    </object>
-    <br />
-    <p class="marginleft copyright">Copyright 2021</p>
-    <p class="resume">Resume</p>
-  </footer>
-
   <script src="./js/index.js"></script>
 </html>
